@@ -8,15 +8,3 @@ End-to-end pipeline for anomaly and attack detection on the WADI industrial cont
 • Balanced windowed re-segmentation with positive and hard-negative examples
 • Sensor-wise attention Transformer+BiLSTM classifier
 • Threshold tuning with a minimum-precision constraint
-
-## Quick start
-```bash
-# clone and enter
-git clone https://github.com/<your-user>/wadi_transformer_bilstm_ids.git
-cd wadi_transformer_bilstm_ids
-
-# install
-python -m pip install -r requirements.txt
-
-# run training
-python scripts/train_unswized.py
